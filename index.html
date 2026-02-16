@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baylan | İstanbul 1923</title>
+    <meta
+      name="description"
+      content="Baylan Kadıköy için yüksek dönüşüm odaklı dijital vitrin: imza lezzetler, rezervasyon, yol tarifi ve çok dilli deneyim."
+    />
+    <meta property="og:title" content="Baylan | İstanbul 1923" />
+    <meta
+      property="og:description"
+      content="Kup Griye'den özel pastalara uzanan Baylan deneyimini keşfedin."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/kup-griye-signature.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&family=Noto+Naskh+Arabic:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="ambient-orb orb-1" aria-hidden="true"></div>
+    <div class="ambient-orb orb-2" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="header-shell container">
+        <a href="#anasayfa" class="brand" aria-label="Baylan ana sayfa">
+          <img src="assets/logo/baylan-logo.svg" alt="Baylan İstanbul 1923" />
+          <span data-i18n="brandSubline">İstanbul 1923</span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Ana menü">
+          <a href="#anasayfa" data-i18n="navHome">Ana Sayfa</a>
+          <a href="#menu" data-i18n="navMenu">Lezzetler</a>
+          <a href="#hikaye" data-i18n="navStory">Hikaye</a>
+          <a href="#yorumlar" data-i18n="navReviews">Yorumlar</a>
+          <a href="#iletisim" data-i18n="navContact">İletişim</a>
+        </nav>
+
+        <div class="header-actions">
+          <a class="btn btn-primary" href="tel:+902163466350" data-i18n="ctaCall">Hemen Ara</a>
+          <div class="lang-switch lang-switch-desktop" role="tablist" aria-label="Dil seçimi">
+            <button class="lang-btn active" data-lang="tr" role="tab" aria-selected="true">TR</button>
+            <button class="lang-btn" data-lang="en" role="tab" aria-selected="false">EN</button>
+            <button class="lang-btn" data-lang="ar" role="tab" aria-selected="false">عربي</button>
+          </div>
+        </div>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Menüyü aç">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <aside class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <div class="mobile-menu-header">
+        <img src="assets/logo/baylan-logo.svg" alt="Baylan" />
+        <button class="menu-close" id="menuClose" aria-label="Menüyü kapat">✕</button>
+      </div>
+
+      <div class="mobile-menu-panel">
+        <nav class="mobile-nav" aria-label="Mobil menü">
+          <a href="#menu" data-i18n="navMenu">Lezzetler</a>
+          <a href="#hikaye" data-i18n="navStory">Hikaye</a>
+          <a href="#yorumlar" data-i18n="navReviews">Yorumlar</a>
+          <a href="#iletisim" data-i18n="navContact">İletişim</a>
+          <a class="btn btn-soft" href="tel:+902163466350" data-i18n="ctaCall">Hemen Ara</a>
+        </nav>
+
+        <div class="mobile-lang-wrap">
+          <p data-i18n="languageTitle">DİL</p>
+          <div class="lang-switch lang-switch-mobile" role="tablist" aria-label="Dil seçimi">
+            <button class="lang-btn active" data-lang="tr" role="tab" aria-selected="true">TR</button>
+            <button class="lang-btn" data-lang="en" role="tab" aria-selected="false">EN</button>
+            <button class="lang-btn" data-lang="ar" role="tab" aria-selected="false">عربي</button>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <main id="anasayfa">
+      <section class="hero container reveal">
+        <div class="hero-copy">
+          <p class="kicker" data-i18n="heroKicker">KADIKÖY, İSTANBUL</p>
+          <h1 data-i18n="heroTitle">103 Yıllık Lezzet Mirası, Bugünün En İkonik Tatlıları</h1>
+          <p class="lead" data-i18n="heroLead">
+            Baylan, imza tatlılarıyla klasik pastane kültürünü modern sunumla birleştirir. Kup Griye'den özel çikolatalara kadar her lokmada gelenek ve ustalık var.
+          </p>
+
+          <div class="hero-chips">
+            <span data-i18n="chipRating">4.2 puan · 4.450+ yorum</span>
+            <span data-i18n="chipSince">İstanbul'da 1923'ten beri</span>
+            <span data-i18n="chipService">Paket servis + yerinde deneyim</span>
+          </div>
+
+          <div class="hero-cta">
+            <a href="#menu" class="btn btn-primary" data-i18n="ctaMenu">İmza Lezzetleri Gör</a>
+            <a href="#iletisim" class="btn btn-outline" data-i18n="ctaDirections">Yol Tarifi & İletişim</a>
+          </div>
+
+          <div class="hero-stats">
+            <article>
+              <strong>1923</strong>
+              <p data-i18n="statOne">Kuruluş</p>
+            </article>
+            <article>
+              <strong>4.2/5</strong>
+              <p data-i18n="statTwo">Google Puanı</p>
+            </article>
+            <article>
+              <strong>11 PM</strong>
+              <p data-i18n="statThree">Kapanış Saati</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <figure class="hero-main-card">
+            <img src="images/kup-griye-signature.png" alt="Baylan Kup Griye" loading="eager" />
+            <figcaption>
+              <span data-i18n="heroImageLabel">İmza Tatlı</span>
+              <strong>Kup Griye</strong>
+            </figcaption>
+          </figure>
+
+          <figure class="hero-mini-card hero-mini-top">
+            <img src="images/exterior-main-entrance.png" alt="Baylan mağaza girişi" loading="lazy" />
+          </figure>
+
+          <figure class="hero-mini-card hero-mini-bottom">
+            <img src="images/baylan-cup-hot-chocolate.png" alt="Baylan fincan sunumu" loading="lazy" />
+          </figure>
+        </div>
+      </section>
+
+      <section id="menu" class="signature-section container reveal">
+        <div class="section-head">
+          <p class="kicker" data-i18n="menuKicker">ÖNE ÇIKANLAR</p>
+          <h2 data-i18n="menuTitle">Baylan İmza Seçkisi</h2>
+          <p data-i18n="menuLead">
+            Yüksek dönüşüm odaklı menü akışı için en çok tercih edilen ürünleri öne çıkarıyoruz.
+          </p>
+        </div>
+
+        <div class="signature-grid">
+          <article class="signature-card">
+            <img src="images/kup-griye-family-table.png" alt="Kup Griye" loading="lazy" />
+            <div>
+              <h3>Kup Griye</h3>
+              <p data-i18n="itemOneDesc">Karamel, dondurma, krokan ve kremanın Baylan klasiği.</p>
+              <strong>₺420</strong>
+            </div>
+          </article>
+
+          <article class="signature-card">
+            <img src="images/truf-dessert-close.png" alt="Trüf tatlısı" loading="lazy" />
+            <div>
+              <h3 data-i18n="itemTwoName">Trüf Pasta</h3>
+              <p data-i18n="itemTwoDesc">Yoğun çikolata katmanları ve yumuşak krema dengesi.</p>
+              <strong>₺390</strong>
+            </div>
+          </article>
+
+          <article class="signature-card">
+            <img src="images/cassata-slice-plate.png" alt="Cassata" loading="lazy" />
+            <div>
+              <h3>Cassata</h3>
+              <p data-i18n="itemThreeDesc">Meyve ve fıstık parçalarıyla çok katmanlı nostaljik tat.</p>
+              <strong>₺410</strong>
+            </div>
+          </article>
+
+          <article class="signature-card">
+            <img src="images/macarons-color-case.png" alt="Macaron seçkisi" loading="lazy" />
+            <div>
+              <h3>Macaron</h3>
+              <p data-i18n="itemFourDesc">Günlük taze üretim, premium kremalı renkli seçkiler.</p>
+              <strong>₺95</strong>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="hikaye" class="story-section container reveal">
+        <div class="story-images">
+          <img src="images/exterior-front-classic.png" alt="Baylan dış cephe" loading="lazy" />
+          <img src="images/garden-seating.png" alt="Baylan bahçe alanı" loading="lazy" />
+        </div>
+
+        <div class="story-copy">
+          <p class="kicker" data-i18n="storyKicker">MARKA HİKAYESİ</p>
+          <h2 data-i18n="storyTitle">Kadıköy'ün Zamansız Pastanesi</h2>
+          <p data-i18n="storyLead">
+            Baylan, klasik pastane kültürünü modern tatlı sunumuyla birleştiren, İstanbul gastronomisinin en güçlü simgelerinden biridir.
+          </p>
+          <ul>
+            <li data-i18n="storyPointOne">Tarihi kimlik: İstanbul 1923 imzası</li>
+            <li data-i18n="storyPointTwo">Özel reçeteler: Kup Griye, Trüf, Cassata</li>
+            <li data-i18n="storyPointThree">Gün boyu deneyim: kahve, tatlı, butik çikolata</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="yorumlar" class="reviews-section container reveal">
+        <div class="section-head">
+          <p class="kicker" data-i18n="reviewKicker">SOSYAL KANIT</p>
+          <h2 data-i18n="reviewTitle">Misafirler Neden Baylan'ı Seçiyor?</h2>
+        </div>
+
+        <div class="reviews-grid">
+          <article>
+            <p data-i18n="reviewOne">
+              “Kup Griye için tekrar gelinir. Tatlılar çok çeşitli ve fiyat-performans dengesi güçlü.”
+            </p>
+            <span>Local Guide</span>
+          </article>
+          <article>
+            <p data-i18n="reviewTwo">
+              “Kadıköy'de ikonik bir adres. Baylan imza tatlıları gerçekten farklı bir deneyim sunuyor.”
+            </p>
+            <span>Maria V.</span>
+          </article>
+          <article>
+            <p data-i18n="reviewThree">
+              “Tatlı kültürü seven herkes için kesinlikle denenmesi gereken bir klasik.”
+            </p>
+            <span>John T.</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery-section container reveal">
+        <div class="section-head">
+          <p class="kicker" data-i18n="galleryKicker">GALERİ</p>
+          <h2 data-i18n="galleryTitle">Lezzet Vitrininden Kareler</h2>
+        </div>
+
+        <div class="gallery-grid">
+          <img src="images/display-cakes-main.png" alt="Pasta vitrini" loading="lazy" />
+          <img src="images/display-cakes-pricing.png" alt="Baylan fiyat etiketli pasta vitrini" loading="lazy" />
+          <img src="images/display-chocolate-premium.png" alt="Çikolata vitrini" loading="lazy" />
+          <img src="images/profiterole-cake-studio.png" alt="Profiterol pasta" loading="lazy" />
+          <img src="images/dessert-berry-shot.png" alt="Özel tatlı sunumu" loading="lazy" />
+          <img src="images/interior-yellow-hall.png" alt="İç mekan" loading="lazy" />
+          <img src="images/dessert-fridge-assorted.png" alt="Tatlı dolabı" loading="lazy" />
+          <img src="images/exterior-front-flowers.png" alt="Baylan giriş" loading="lazy" />
+        </div>
+      </section>
+
+      <section id="iletisim" class="contact-section container reveal">
+        <div class="contact-copy">
+          <p class="kicker" data-i18n="contactKicker">REZERVASYON & İLETİŞİM</p>
+          <h2 data-i18n="contactTitle">Hızlı Dönüşüm İçin Net Çağrı</h2>
+          <p data-i18n="contactLead">
+            Arayın, yol tarifi alın veya form bırakın. Form entegrasyonu şu an placeholder; backend bağlandığında doğrudan CRM veya WhatsApp API'ye düşebilir.
+          </p>
+
+          <div class="contact-cards">
+            <article>
+              <h3 data-i18n="cardAddressTitle">Adres</h3>
+              <p>Caferağa, Muvakkıthane Cd. No: 9/A, Kadıköy / İstanbul</p>
+            </article>
+            <article>
+              <h3 data-i18n="cardPhoneTitle">Telefon</h3>
+              <p><a href="tel:+902163466350">(0216) 346 63 50</a></p>
+            </article>
+            <article>
+              <h3 data-i18n="cardHoursTitle">Saatler</h3>
+              <p data-i18n="hoursValue">Her gün açık · 23:00'te kapanış</p>
+            </article>
+          </div>
+        </div>
+
+        <form class="reservation-form" id="reservationForm">
+          <h3 data-i18n="formTitle">Yer Ayırt</h3>
+
+          <label for="name" data-i18n="formNameLabel">Ad Soyad</label>
+          <input id="name" name="name" type="text" required data-i18n-placeholder="formNamePlaceholder" placeholder="Adınızı girin" />
+
+          <label for="phone" data-i18n="formPhoneLabel">Telefon</label>
+          <input id="phone" name="phone" type="tel" required data-i18n-placeholder="formPhonePlaceholder" placeholder="05xx xxx xx xx" />
+
+          <label for="guests" data-i18n="formGuestsLabel">Kişi Sayısı</label>
+          <input id="guests" name="guests" type="number" min="1" max="20" required />
+
+          <label for="note" data-i18n="formNoteLabel">Not</label>
+          <textarea id="note" name="note" rows="3" data-i18n-placeholder="formNotePlaceholder" placeholder="Özel isteklerinizi yazın"></textarea>
+
+          <button type="submit" class="btn btn-primary" data-i18n="formSubmit">Talep Gönder</button>
+          <p class="form-note" data-i18n="formNote">
+            Demo form: backend entegrasyonu yapıldığında e-posta/CRM/WhatsApp akışına bağlanır.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <img src="assets/logo/baylan-logo.svg" alt="Baylan" />
+        <p data-i18n="footerText">Baylan İstanbul 1923 · Kadıköy'de imza tatlı deneyimi</p>
+        <a href="tel:+902163466350" data-i18n="footerCta">Hemen Ara</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

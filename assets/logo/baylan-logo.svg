@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" role="img" aria-labelledby="title desc">
+  <title id="title">Baylan İstanbul 1923 Logosu</title>
+  <desc id="desc">Baylan yazısı ve İstanbul 1923 alt markası.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#d5b06f"/>
+      <stop offset="50%" stop-color="#b98739"/>
+      <stop offset="100%" stop-color="#e6c78a"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="220" fill="none"/>
+  <text
+    x="20"
+    y="125"
+    fill="url(#gold)"
+    font-size="160"
+    font-style="italic"
+    font-family="Snell Roundhand, Zapfino, Brush Script MT, cursive"
+    letter-spacing="1"
+  >Baylan</text>
+  <line x1="205" y1="165" x2="705" y2="165" stroke="url(#gold)" stroke-width="3" opacity="0.85"/>
+  <text
+    x="235"
+    y="198"
+    fill="url(#gold)"
+    font-size="38"
+    font-family="Avenir Next, Helvetica Neue, Arial, sans-serif"
+    letter-spacing="8"
+  >İSTANBUL 1923</text>
+</svg>
